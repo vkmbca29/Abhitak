@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">   Abhitak</string>
+    <string name="tab_text_1">News</string>
+    <string name="tab_text_2">Videos</string>
+    <string name="tab_text_3">Live</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Abhitak News is a District Bijnor's popular Hindi News Channel. We cover politics, sports, Social and entertainment and others.. The vision of the channel is  सबकी खबर, सब पर नज़र 24—घंटे. Abhitak News Channel maintains the repute of being a people's channel. Channel works to bring difference to the society by highlighting the issues which are of importance and affect the life of people. Abhitak News is best defined as a responsible channel with a fair and balanced approach that combines prompt reporting with insightful analysis of news and current affairs."
+    </string>
+    <string-array name="janpads">
+        <item>बिजनौर</item>
+        <item>धामपुर</item>
+        <item>नजीबाबाद</item>
+        <item>नगीना</item>
+        <item>चाँदपुर</item>
+        <item>हमारा जनपद</item>
+    </string-array>
+</resources>

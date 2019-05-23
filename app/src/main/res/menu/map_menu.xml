@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="softpro.abhitak.MainActivity">
+    <item
+        android:id="@+id/action_bijnor"
+        android:orderInCategory="100"
+        android:title="Bijnor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_amroha"
+        android:orderInCategory="100"
+        android:title="Amroha"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_moradabad"
+        android:orderInCategory="100"
+        android:title="Moradabad"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rampur"
+        android:orderInCategory="100"
+        android:title="Rampur"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sambhal"
+        android:orderInCategory="100"
+        android:title="Sambhal"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0">
+        <meta
+                http-equiv="X-UA-Compatible"
+                content="ie=edge">
+        <style>
+        html, body{
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #000000;
+                overflow: hidden;
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+            }
+            video{
+                height: 100%;
+                width: 100%;
+                flex: 1 1 auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+        <video
+                id="video"
+                controls=""
+                autoplay=""
+                class="videoCentered"></video>
+        <script>
+  var video = document.getElementById('video');
+  var hlsSource="http://51.254.38.220/abhitakhls/abhitak.m3u8";
+  //var hlsSource="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8";
+  var ready=false;
+  if(Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(hlsSource);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+        //console.log("Playing Now Parsed Version");
+        ready=true;
+        video.pause();
+        JSInterface.notifyLive();
+    });
+    hls.on(Hls.Events.ERROR,function(){
+        //console.log("Some Error Occured");
+        video.pause();
+        ready=false;
+        JSInterface.notifyNotLive();
+    });
+ }
+  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = hlsSource;
+    video.addEventListener('loadedmetadata',function() {
+    video.pause();
+    ready=true;
+    JSInterface.notifyLive();
+    });
+  }
+
+  function pauseVideo(){
+      video.pause();
+  }
+
+  function playVideo(){
+      video.play();
+  }
+
+  function isReady(){
+  return ready;
+  }
+
+        </script>
+    </body>
+</html>

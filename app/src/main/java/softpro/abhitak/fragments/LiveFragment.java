@@ -31,6 +31,7 @@ import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import softpro.abhitak.MainActivity;
 import softpro.abhitak.R;
 import softpro.abhitak.Utils;
+import softpro.abhitak.utils.Constants;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -44,7 +45,7 @@ public class LiveFragment extends Fragment {
     private boolean LIVE = false;
     private PlayerView exoPlayerView;
     private SimpleExoPlayer exoPlayer;
-    private final String videoURL = "http://51.254.38.220/abhitakhls/abhitak.m3u8";
+    private final String videoURL = Constants.LIVE_VIDEO_ID;
     private ImageButton fullScreen;
     private boolean VISIBLE = false;
     private boolean IS_FULLSCREEN = false;

@@ -9,5 +9,7 @@ public class Constants {
     public static final int CATEGORY_NAGINA = 50;
     public static final int CATEGORY_CHANDPUR = 51;
     public static final int CATEGORY_ALL = 0;
+    public static final String LIVE_VIDEO_ID = "http://abhitaknews.livebox.co.in/AbhitakNewshls/ABHITAKNEWS.m3u8";
+
     //public static final String YOUTUBE_CHANNEL_ID="UCIR_LPmEQ9QHR0yB2lxgaxQ";
 }

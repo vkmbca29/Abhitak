@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidDomInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintDeprecated" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintGradleDeprecated" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintLocaleFolder" enabled="false" level="WARNING" enabled_by_default="false">
+      <scope name="Production" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTooDeepLayout" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintTooManyViews" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AndroidLintUnusedIds" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="DeprecatedAPI" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="DeprecatedClassUsageInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="DeprecatedGradleDependency" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="DeprecatedIsStillUsed" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="Deprecation" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true">
+        <option name="IGNORE_ABSTRACT_DEPRECATED_OVERRIDES" value="false" />
+        <option name="IGNORE_IMPORT_STATEMENTS" value="false" />
+        <option name="IGNORE_METHODS_OF_DEPRECATED" value="false" />
+      </scope>
+      <option name="IGNORE_ABSTRACT_DEPRECATED_OVERRIDES" value="false" />
+      <option name="IGNORE_IMPORT_STATEMENTS" value="false" />
+      <option name="IGNORE_METHODS_OF_DEPRECATED" value="false" />
+    </inspection_tool>
+    <inspection_tool class="EditorConfigDeprecatedDescriptor" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="GrDeprecatedAPIUsage" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="KotlinDeprecation" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="MarkedForRemoval" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true">
+        <option name="IGNORE_IN_SAME_OUTERMOST_CLASS" value="false" />
+      </scope>
+      <option name="IGNORE_IN_SAME_OUTERMOST_CLASS" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ObsoleteExperimentalCoroutines" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="OverridingDeprecatedMember" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="XmlDeprecatedElement" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Production" level="ERROR" enabled="true" />
+    </inspection_tool>
+  </profile>
+</component>
